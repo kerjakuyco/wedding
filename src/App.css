@@ -15,24 +15,24 @@
 }
 
 :root {
-  /* palette — warm cream + champagne gold + espresso ink */
-  --cream: #faf8f5;
-  --ivory: #f3efe8;
-  --surface: #ede7dc;
-  --champagne: #c4a87c;
-  --gold: #b8945c;
-  --gold-deep: #8b6d4a;
-  --gold-pale: #e4d5bc;
-  --ink: #2d2418;
-  --ink-soft: #5e5040;
-  --ink-muted: #8c8070;
-  --rose: #da8697;
-  --rose-pale: #eadcdc;
-  --accent: #FFCB5B;
-  --sage: #8faa8b;
-  --sage-soft: #b5c9b2;
-  --line: #e0d6c8;
-  --line-light: #ece4d8;
+  /* palette — deep burgundy + ivory white + soft gold */
+  --cream: #4a1728;
+  --ivory: #5a1d33;
+  --surface: #3d1222;
+  --champagne: #e3c39a;
+  --gold: #d9b380;
+  --gold-deep: #c49a66;
+  --gold-pale: #f0e0c8;
+  --ink: #ffffff;
+  --ink-soft: rgba(255, 255, 255, 0.88);
+  --ink-muted: rgba(255, 255, 255, 0.62);
+  --rose: #e7a5b3;
+  --rose-pale: #6e2b40;
+  --accent: #e5c090;
+  --sage: #a9bb9f;
+  --sage-soft: #7e937a;
+  --line: rgba(255, 255, 255, 0.16);
+  --line-light: rgba(255, 255, 255, 0.1);
 
   /* rhythm */
   --gutter: clamp(1.5rem, 6vw, 2.5rem);
@@ -566,14 +566,14 @@ a {
 .petal {
   position: absolute;
   top: -6%;
-  background: linear-gradient(135deg, rgba(196, 168, 124, 0.16), rgba(228, 213, 188, 0.06));
+  background: linear-gradient(135deg, rgba(217, 179, 128, 0.32), rgba(240, 224, 200, 0.14));
   border-radius: 50% 0 50% 0;
   animation: petalDrift linear infinite;
   pointer-events: none;
 }
 
 .petal--rose {
-  background: linear-gradient(135deg, rgba(196, 160, 160, 0.14), rgba(234, 220, 220, 0.05));
+  background: linear-gradient(135deg, rgba(231, 165, 179, 0.3), rgba(240, 224, 200, 0.12));
 }
 
 @keyframes petalDrift {
@@ -925,8 +925,6 @@ a {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 80% 55% at 50% 30%, rgba(255, 252, 246, 0.6), transparent 65%),
-    radial-gradient(ellipse 60% 70% at 50% 70%, rgba(196, 168, 124, 0.05), transparent 60%),
     linear-gradient(180deg, var(--ivory) 0%, var(--surface) 100%);
 }
 
@@ -1004,7 +1002,7 @@ a {
   z-index: 1;
   width: 1px;
   height: 2.75rem;
-  background: linear-gradient(180deg, rgba(45, 36, 24, 0.45), transparent);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), transparent);
   transform: translateX(-50%);
   transform-origin: top;
   animation: cue 2.2s ease-in-out infinite;
@@ -1588,11 +1586,11 @@ a {
   width: 3rem;
   height: 3rem;
   color: var(--ink-soft);
-  background: rgba(250, 248, 245, 0.9);
+  background: rgba(58, 16, 30, 0.85);
   border: 1px solid var(--line);
   border-radius: 50%;
   cursor: pointer;
-  box-shadow: 0 4px 24px rgba(45, 36, 24, 0.1);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(10px);
   -webkit-tap-highlight-color: transparent;
   transition:
@@ -1635,11 +1633,11 @@ a {
   width: 3rem;
   height: 3rem;
   color: var(--ink-muted);
-  background: rgba(250, 248, 245, 0.7);
+  background: rgba(58, 16, 30, 0.7);
   border: 1px solid var(--line);
   border-radius: 50%;
   cursor: pointer;
-  box-shadow: 0 2px 12px rgba(45, 36, 24, 0.06);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(8px);
   place-items: center;
   -webkit-tap-highlight-color: transparent;
