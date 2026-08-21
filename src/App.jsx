@@ -7,7 +7,7 @@ const WEDDING_DATE = new Date('2026-10-17T11:00:00+07:00')
 const MAPS_URL = 'https://share.google/N1498OtR3jMvBXDPH'
 
 const ACCOUNTS = [
-  { bank: 'SeaBank', number: '901974084345', holder: 'Putri Ewing Vai' },
+  { bank: 'Blu by BCA Digital', number: '001504549754', holder: 'Putri Ewing Vai' },
   { bank: 'BCA', number: '7651120491', holder: 'Muhammad Azzohabi' },
 ]
 
@@ -496,14 +496,14 @@ export default function App() {
                   <p className="person-name">Muhammad Azzohabi</p>
                   <hr className="rule-draw rule--tight" aria-hidden="true" />
                   <p className="person-of">Putra Pertama dari</p>
-                  <p className="person-parents">Bapak Abdi Rohman (alm)<br />&amp;<br />Ibu Soleha</p>
+                  <p className="person-parents">Alm. Abdi Rohman bin Akram<br />&amp;<br />Soleha</p>
                 </div>
                 <span className="couple-amp" aria-hidden="true">&amp;</span>
                 <div>
                   <p className="person-name">Putri Ewing Vai</p>
                   <hr className="rule-draw rule--tight" aria-hidden="true" />
                   <p className="person-of">Putri Ketiga dari</p>
-                  <p className="person-parents">Bapak Moh Hamim<br />&amp;<br />Ibu Wina (almh)</p>
+                  <p className="person-parents">Moh. Hamim bin Ahmad Jaelani<br />&amp;<br />Almh. Wina</p>
                 </div>
               </div>
             </div>
